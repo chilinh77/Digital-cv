@@ -1,0 +1,30 @@
+@media (max-width: 575px) {
+  .vertical-cent {
+    left: 7%;
+}
+#banner-img{
+  height: 80vh;
+}
+.author{
+  display: none;  
+}
+.nav-link{
+  text-align: left;
+  margin-left: 30px;
+}
+#job-info{
+  column-count: 1;
+}
+#certificate>.row{
+  column-count: 1;
+}
+.cert-info{
+  max-width: 100%;
+}
+.contact>li>a{
+  font-size: 0;
+}
+.all-project{
+  column-count: 1;
+}
+}

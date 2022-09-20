@@ -1,0 +1,209 @@
+
+body{
+    font-family:"Tahoma", Verdana, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+/*banner*/
+
+#banner-img{
+    background-image: url("https://raw.githubusercontent.com/chilinh77/digital-cv/main/images/banner.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.vertical-cent{
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    left: 34%;
+    top: 35%;
+    text-align: center;
+}
+/*navbar*/
+h1{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.row {
+    margin-top: 15px;
+}
+.author{
+    width: 30%;
+}
+.nav-link{
+    vertical-align: middle;
+}
+/*job-info*/
+#job-info{
+    column-count: 3;
+    column-gap: 10px;
+    margin-top: 3%;
+}
+.info-box{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;/* vertical gap */
+    margin-left: 12px; 
+    page-break-inside: avoid;
+    break-inside: avoid-column;    
+    border: 1px solid grey;
+}
+.title.box{
+    font-size: 30px;
+    
+}
+/*title-area*/
+.title-area{
+    display: grid;
+    grid-template-columns: 75% 25%;  
+    text-align: center;  
+    align-items: center;
+    height: 12vh;
+   }
+   .content-area{
+    padding-left: 16px;
+    margin-bottom: 15px;
+   }
+.title-area>i{
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+/*content-area*/
+
+/*Hobbies*/
+.hobbies{
+    text-align: center;
+}
+.hobbies>div{
+    display: block;   
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;  
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+}
+.hobbies>div>i{    
+    width: 40px;
+    font-size: x-large;
+    position: relative;
+    top: 50%;
+    color: #199cdb;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/*Level-rating*/
+.rating{
+    background: grey;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+.checked{
+    background: #199cdb;
+}
+.skill{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rate{
+    text-align: center;
+}
+
+#certificate>.row{
+    column-count: 2;
+    margin-top: 30px;
+}
+.cert-info{
+    column-count: 2;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    margin-bottom: 10px; /* vertical gap */
+    page-break-inside: avoid;
+    break-inside: avoid-column;    
+    border: 1px solid grey;
+    padding-bottom: 20px;
+    
+}
+.cert-img{
+    display: block;    
+    max-width: 100%;
+    padding-top: 20px;
+}
+.cert-detail{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    margin-bottom: 40px;  
+}
+
+/*footer*/
+.contact{
+    display: flex;
+    font-size: 24px;    
+}
+.contact>li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+/*dư án*/
+.all-project{
+    column-count: 3;
+}
+table{    
+    border: 1px groove;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+td{
+    border: 1px groove;    
+}
+.project-name{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px groove;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    vertical-align: middle;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.proj-year{
+    background-color: #199cdb;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    width: 40px;
+    margin: 10px;  
+}
+.short-info{
+    border: 1px groove;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.proj-icon>i{
+    color: grey;
+}

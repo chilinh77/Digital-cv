@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+	#banner-img{
+		background-position-x: 50%;
+	}
+	.vertical-cent{
+		left: 25%;
+	}
+	#job-info{
+        column-count: 2;
+        column-gap: 10px;
+    }
+	 #certificate>.row{
+		column-count: 2;
+		}
+		.cert-info{
+		column-count: 1;
+		}
+		.project-name{
+			height: 70px;
+		}
+		.short-info{
+			height: 70px;
+		}
+}
